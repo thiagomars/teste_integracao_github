@@ -37,7 +37,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
                 ColaboradorId = colaborador.Id,
                 DataAdvertencia = createDto.DataAdvertencia,
                 TextoAdvertencia = createDto.TextoAdvertencia,
-                ArquivoAnexoId = createDto.ArquivoAnexoId,
+                // ArquivoAnexoId = createDto.ArquivoAnexoId,
                 // DataCadastro = DateTime.Now,
                 UsuarioCadastro = usuario
             };
