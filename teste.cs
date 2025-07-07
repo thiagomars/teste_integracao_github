@@ -39,7 +39,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
                 TextoAdvertencia = createDto.TextoAdvertencia,
                 // ArquivoAnexoId = createDto.ArquivoAnexoId,
                 // DataCadastro = DateTime.Now,
-                UsuarioCadastro = usuario
+                // UsuarioCadastro = usuario
             };
 
             _applicationDbContext.Advertencia.Add(advertencia);
