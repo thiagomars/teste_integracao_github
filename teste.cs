@@ -66,7 +66,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
             // advertencia.ColaboradorId = colaborador.Id;
             advertencia.DataAdvertencia = updateDto.DataAdvertencia;
             advertencia.TextoAdvertencia = updateDto.TextoAdvertencia;
-            advertencia.ArquivoAnexoId = updateDto.ArquivoAnexoId;
+            // advertencia.ArquivoAnexoId = updateDto.ArquivoAnexoId;
             advertencia.DataCadastro = DateTime.Now;
             advertencia.UsuarioCadastro = usuario;
 
