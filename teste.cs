@@ -63,7 +63,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
             if (advertencia == null)
                 throw new Exception("Advertência não encontrada.");
 
-            advertencia.ColaboradorId = colaborador.Id;
+            // advertencia.ColaboradorId = colaborador.Id;
             advertencia.DataAdvertencia = updateDto.DataAdvertencia;
             advertencia.TextoAdvertencia = updateDto.TextoAdvertencia;
             advertencia.ArquivoAnexoId = updateDto.ArquivoAnexoId;
