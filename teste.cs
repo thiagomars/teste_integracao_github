@@ -180,7 +180,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
                                     {
                                         Id = x.Id,
                                         ArquivoAnexoId = x.ArquivoAnexoId,
-                                        ColaboradorId = x.ColaboradorId,
+                                        // ColaboradorId = x.ColaboradorId,
                                         ColaboradorNome = x.Colaborador.Nome,
                                         DataAdvertencia = x.DataAdvertencia,
                                         TextoAdvertencia = x.TextoAdvertencia,
