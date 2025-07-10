@@ -1,7 +1,7 @@
 using BOX3_ERP_API.Core.Data;
 using BOX3_ERP_API.Core.DTOs.Advertencia;
 using BOX3_ERP_API.Core.Models.AuxiliarModels;
-using BOX3_ERP_API.Core.Models.DatabaseModels;
+using BOX3_ERP_API.Core.Models.DatabaseModels;a
 using BOX3_ERP_API.Core.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
