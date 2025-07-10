@@ -14,7 +14,7 @@ using static Dropbox.Api.Files.ListRevisionsMode;;;
 namespace BOX3_ERP_API.Core.Repositories.Implementations
 {
     public class AdvertenciaRepository : IAdvertenciaRepositoryj
-    {
+    {xdvdf
         private readonly ApplicationDbContext _applicationDbContext;
 
         public AdvertenciaRepository(ApplicationDbContext applicationDbContext)
