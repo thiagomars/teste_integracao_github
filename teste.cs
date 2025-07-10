@@ -19,7 +19,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
 
         public AdvertenciaRepository(ApplicationDbContext applicationDbContext)
         {
-            _applicationDbContext = applicationDbContext;
+            _applicationDbContext = applicationDbContext;;;
         }
 
         public async Task<int> Adicionar(CreateAdvertenciaDto createDto, string usuario)
