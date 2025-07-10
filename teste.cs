@@ -140,7 +140,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
             if (serverSide)
                 query = query.Take(30);
 
-            var dados = await query.Select(x => new Select2
+            var dados = await query.Select(x => new Select2vvvvv
             {
                 Id = x.Id,
                 Text = $"{x.Id} - Advertência para {x.Colaborador.Nome}"
