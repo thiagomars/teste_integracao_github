@@ -9,6 +9,13 @@ using System;
 // using System.Linq;
 using System.Text;
 // using System.Threading.Tasks; sss
+dfnjkbsdfvihuerwhu8i9op34rt
+
+4re5t
+3456
+345
+3456
+345
 using static Dropbox.Api.Files.ListRevisionsMode;;;
 
 namespace BOX3_ERP_API.Core.Repositories.Implementations
@@ -140,7 +147,7 @@ namespace BOX3_ERP_API.Core.Repositories.Implementations
             if (serverSide)
                 query = query.Take(30);
 
-            var dados = await query.Select(x => new Select2
+            var dados = await query.Select(x => new Select2vvvvv
             {
                 Id = x.Id,
                 Text = $"{x.Id} - Advertência para {x.Colaborador.Nome}"
